@@ -1,6 +1,5 @@
 asgiref
 Django
-mysqlclient
 PyMySQL
 sqlparse
 typing_extensions
