@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
-import pymysql
+# import pymysql
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -73,7 +73,7 @@ WSGI_APPLICATION = 'server.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
-pymysql.install_as_MySQLdb
+# pymysql.install_as_MySQLdb
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
